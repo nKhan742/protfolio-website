@@ -1,0 +1,14 @@
+
+body {
+  margin: 0;
+  font-family: "Quicksand-Regular";
+}
+p {
+  font-family: "Quicksand-Regular";
+}
+h1, h2, h3, h4 {
+  font-family: "Quicksand-Bold";
+}
+a {
+  text-decoration: none;
+}
