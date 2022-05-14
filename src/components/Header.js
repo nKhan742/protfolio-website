@@ -31,7 +31,7 @@ const Header = () => {
                         </li>
                         <li className="nav-item  px-4 d-flex align-items-center">
                             <FontAwesomeIcon icon="phone" size="sm"/>&nbsp;
-                            <p className="m-0"><a className=" primary2">99-71-80-1873</a></p>
+                            <p className="m-0"><a className=" primary2">+91-997 180 1873</a></p>
                         </li>
                     </ul>
                 </div>
