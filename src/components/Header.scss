@@ -1,0 +1,64 @@
+@import "style"; 
+
+nav {
+    background-color: $primary1;
+    color: $primary3;
+    border-bottom: 1px solid $grid;
+    ul {
+        li {
+            a {
+                color: #808dad !important;
+                font-family: "Quicksand-Medium";
+                font-size: 14px;
+                letter-spacing: 1px;
+            }
+        }
+    }
+}
+
+a.nav-link.active {
+    color: #f44336 !important;
+    transition: .5s ease;
+}
+
+a.nav-link.active::after,
+a.nav-link.active::before {
+    display: inline-block;
+    opacity: 0;
+    -webkit-transition: -webkit-transform .6s,opacity .2s;
+    -moz-transition: -moz-transform .6s,opacity .2s;
+    transition: transform .6s,opacity .2s;
+}
+a.nav-link.active::before {
+    margin-right: 4px;
+    content: '-';
+    -webkit-transform: translateX(8px);
+    -moz-transform: translateX(8px);
+    transform: translateX(8px);
+}
+
+a.nav-link.active::after {
+    margin-left: 3px;
+    content: '-';
+    -webkit-transform: translateX(-8px);
+    -moz-transform: translateX(-8px);
+    transform: translateX(-8px);
+}
+
+a.nav-link.active:focus::after,
+a.nav-link.active:focus::before,
+a.nav-link.active:hover::after,
+a.nav-link.active:hover::before {
+	opacity: 1;
+	-webkit-transform: translateX(0);
+	-moz-transform: translateX(0);
+	transform: translateX(0);
+}
+a.nav-link.active:hover,
+a.nav-link.active:focus {
+	text-decoration: none;
+}
+.navbar-toggler {
+    background-color: $primary3;
+    border: 1px solid $primary3;
+}

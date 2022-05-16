@@ -1,9 +1,11 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+import "./Header.scss";
+
 const Header = () => {
     return(
-        <nav className="navbar navbar-expand-lg">
+        <nav className="navbar navbar-expand-lg py-3">
             <div className="container">
                 <a className="navbar-brand" href="#">Khan</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
