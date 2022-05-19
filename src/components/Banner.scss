@@ -16,10 +16,23 @@
     }
 }
 
+.line {
+  position: relative;
+}
+
+.line:after {
+  content: "";
+  width: 40px;
+  border-bottom: solid 2px $primary2;
+  position: absolute;
+  right: 90%;
+  bottom: 50%;
+}
+
 .box {
     border-radius: 10px;
     padding: 2% 5%;
-    box-shadow: 0px 0px 20px 3px #0000002e;
+    box-shadow: 0px 0px 10px 0px #02081952;
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     color: #fff;
@@ -32,6 +45,7 @@
 .music-box {
     top: 45%;
     right: 75%;
+    width: fit-content;
 }
 .icon-box {
     background: #808dad;

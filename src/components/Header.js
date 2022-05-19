@@ -28,11 +28,11 @@ const Header = () => {
                         <li className="nav-item">
                         <a className="nav-link px-4" href="#">Contact Me</a>
                         </li>
-                        <li className="nav-item d-flex align-items-center">
+                        <li className="nav-item mx-4 d-flex align-items-center">
                         |
                         </li>
                         <li className="nav-item  px-4 d-flex align-items-center">
-                            <FontAwesomeIcon icon="phone" size="sm"/>&nbsp;
+                            <FontAwesomeIcon icon="phone" size="sm"/>&nbsp;&nbsp;
                             <p className="m-0"><a className=" primary2">+91-997 180 1873</a></p>
                         </li>
                     </ul>

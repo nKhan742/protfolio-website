@@ -1,0 +1,12 @@
+@import "style"; 
+
+.bg-grids {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    div {
+        height: 100%;
+        background-color: $grid;
+        width: 1px;
+    }
+}

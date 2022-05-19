@@ -19,10 +19,13 @@ const Banner = () => {
         <div className="container">
             <div className="d-flex justify-content-between align-items-center banner-container">
                 <div className="banner-content">
-                    <p className="m-0 primary2">-Hello</p>
+                    <p className="m-0 primary2 line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello</p>
                     <h1 className="">I'M NADEEM<br/>KHAN</h1>
                     <p className="primary3 mb-4">Frontend Developer</p>
-                    <ButtonComponent name="Hire me"/>
+                    <div className="d-flex"> 
+                        <ButtonComponent class="custom-btn btn px-4" name="Hire me"/>
+                        <ButtonComponent class="anchor-btn btn mx-4" name="Download CV"/>
+                    </div>
                 </div>
                 <div className="position-relative p-5">
                     <div className="banner-profile">
@@ -37,7 +40,7 @@ const Banner = () => {
                             <h4 className="m-0">4 Years</h4>
                         </div>
                     </div>
-                    <div className="music-box box w-25 position-absolute">
+                    <div className="music-box box position-absolute">
                             <p className="m-0 primary3">Music</p>
                             
                             <div class="now playing" id="music">

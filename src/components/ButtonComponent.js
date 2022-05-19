@@ -4,7 +4,7 @@ import "./ButtonComponent.scss";
 
 const ButtonComponent = (props) => {
     return(
-        <button className="custom-btn btn px-4">{props.name}</button>
+        <button className={props.class}>{props.name}</button>
     )
 }
 
