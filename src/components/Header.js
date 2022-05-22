@@ -1,5 +1,5 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FaPhoneAlt } from 'react-icons/fa'
 
 import "./Header.scss";
 
@@ -7,7 +7,7 @@ const Header = () => {
     return(
         <nav className="navbar navbar-expand-lg py-3">
             <div className="container">
-                <a className="navbar-brand" href="#">Khan</a>
+                <a className="navbar-brand primary4" href="#">nk</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
@@ -32,7 +32,7 @@ const Header = () => {
                         |
                         </li>
                         <li className="nav-item  px-4 d-flex align-items-center">
-                            <FontAwesomeIcon icon="phone" size="sm"/>&nbsp;&nbsp;
+                            <FaPhoneAlt/>&nbsp;&nbsp;
                             <p className="m-0"><a className=" primary2">+91-997 180 1873</a></p>
                         </li>
                     </ul>

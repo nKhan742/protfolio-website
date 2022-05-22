@@ -30,27 +30,34 @@
 }
 
 .box {
-    border-radius: 10px;
-    padding: 2% 5%;
-    box-shadow: 0px 0px 10px 0px #02081952;
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
-    color: #fff;
-    width: 35%;
+  border-radius: 10px;
+  padding: 2% 5%;
+  box-shadow: 0px 0px 10px 0px #02081952;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  color: #fff;
+  background: #101836cc;
+  // width: 35%;
 }
-.experience {
+.experience-container {
     bottom: 2%;
     right: 0%;
 }
+.music-box-container{
+  top: 45%;
+  right: 85%;
+}
 .music-box {
-    top: 45%;
-    right: 75%;
-    width: fit-content;
+  width: -moz-fit-content;
+  width: max-content;
 }
 .icon-box {
-    background: #808dad;
-    padding: 5% 7%;
+    background: $grid;
     border-radius: 10px;
+    margin-right: 10%;
+    width: 60px;
+    height: 50px;
+    font-size: 20px;
 }
 
 // ===============Music bar animation================
@@ -133,5 +140,19 @@
   }
 
 //   =========================================
-
-
+.play-btn-container{
+  top: 83%;
+  right: 80%;
+}
+.play-btn {
+  width: 70px;
+  background: #ec4a4b5c;
+  height: 70px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  color: $primary2;
+  outline: 15px solid #ec4a4b33;
+}

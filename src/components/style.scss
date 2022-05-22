@@ -19,10 +19,31 @@ $grid: #1c243f;
 body {
     background-color: $primary1;
 }
-
+h1,h2,h3,h4,h5,h6,p {
+    white-space: nowrap;
+}
+.primary1 {
+    color: $primary1 !important;
+}
 .primary2 {
     color: $primary2 !important;
 }
 .primary3 {
     color: $primary3 !important;
+}
+.primary4 {
+    color: $primary4 !important;
+}
+.primary5 {
+    color: $grid !important;
+}
+
+// =============button scss============
+
+.anchor-btn {
+    color: $primary2;
+    height: 35px;
+    border-bottom: 1px solid $primary2;
+    padding: 0 0!important;
+    border-radius: 0;
 }
