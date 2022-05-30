@@ -1,0 +1,13 @@
+@import "style";
+
+.follow_me_icons {
+    z-index: 9;
+    right: -5%;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    top: 50%;
+    font-size: 18px;
+}

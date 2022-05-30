@@ -39,7 +39,7 @@ const Banner = () => {
                             </div>
                             <div className="exp-content">
                                 <p className="m-0 primary3">Experience</p>
-                                <h4 className="m-0">4 Years</h4>
+                                <h4 className="m-0 text-nowrap">4 Years</h4>
                             </div>
                         </div>
                     </div>

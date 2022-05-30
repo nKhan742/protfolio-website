@@ -19,8 +19,18 @@ $grid: #1c243f;
 body {
     background-color: $primary1;
 }
-h1,h2,h3,h4,h5,h6,p {
-    white-space: nowrap;
+h1,h2,h3,h4,h5,h6 {
+    white-space: normal;
+    font-family: 'Quicksand-Bold';
+}
+p{
+    text-align: justify;
+}
+ul {
+    padding: 0;
+    li{
+        list-style: none;
+    }
 }
 .primary1 {
     color: $primary1 !important;
@@ -46,4 +56,16 @@ h1,h2,h3,h4,h5,h6,p {
     border-bottom: 1px solid $primary2;
     padding: 0 0!important;
     border-radius: 0;
+}
+.section-padding {
+    padding: 10% 0;
+    border-top: 1px solid $grid;
+    .line:after {
+        content: "";
+        width: 25px;
+        border-bottom: solid 2px #ec4a4b;
+        position: absolute;
+        right: 95%;
+        bottom: 50%;
+    }
 }
